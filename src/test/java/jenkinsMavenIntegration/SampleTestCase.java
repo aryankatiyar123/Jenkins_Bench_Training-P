@@ -11,7 +11,6 @@ import org.testng.annotations.Test;
 public class SampleTestCase {
 	
 	
-	@Parameters("browser")
 	@Test
 	public void lauchBrowser(String Launching_browser)
 	{
