@@ -8,7 +8,6 @@
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 	</properties>
-
 	
 	<dependencies>
 
@@ -47,13 +46,6 @@
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					
-					
-					<systemPropertyVariables>
-					
-					<browser>${browser}</browser>
-					
-					
-					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 
