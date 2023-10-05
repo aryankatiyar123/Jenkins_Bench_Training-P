@@ -12,7 +12,7 @@ public class SampleTestCase {
 	
 	
 	@Test
-	public void lauchBrowser(@Optional("Chrome") String Launching_browser)
+	public void lauchBrowser(String Launching_browser)
 	{
 		WebDriver driver=null;
 		System.out.println("Launch browser is : " + Launching_browser);
